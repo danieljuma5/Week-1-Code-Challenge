@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <title>Grade generator</title>
+  <link rel="stylesheet" href="./style.css">
+<head>
+<meta charset=utf-8 />
+<title>Grade Calculator</title>
+</head>
+<body>
+  <h1>A Simple Grade Calculator</h1>
+  <form onsubmit="return false;"></form>
+  <label for="score">Enter Student Score:</label>
+  <input type="number" id="score" name="score" min="0" max="100" >
+  <button id="button" type="button" onclick="calculateGrade()">Submit</button>
+  <p id="result"></p>
+
+  <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+h1 {
+  background-color: green;
+  text-align: center;
+}
+label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: green;
+}
+#resultDiv {
+  background-color: green;
+}
